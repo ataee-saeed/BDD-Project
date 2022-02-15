@@ -22,7 +22,10 @@ public class LoginPageObject extends Base {
 	public LoginPageObject() {
 		PageFactory.initElements(driver, this);
 	}
-
+	//this is only for the test
+	private void sysout() {
+		// TODO Auto-generated method stub
+	}
 	// PageFactory class provides an annotation @FindBy to find UI elements
 	// @Findby == driver.findElement()
 
